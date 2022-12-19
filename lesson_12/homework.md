@@ -20,11 +20,15 @@ In caz de intrebari, va rog sa ma contactati in mesaj direct.
 
 Creaza o functie `mult_list` care va lua ca argument o lista de numere, si va intoarce ca rezultat toate elementele din lista inmultite una cu alta.
 
+Creaza o alta functie, care va permite testarea acestui exercitiu. 
+
 ### ENG
 
 Write a python function that will multiply all the numbers in a list and return the result.
 
 The function should be called `mult_list` and take a list as an agrument.
+
+Write another function (`test_mult_list`) that will allow the user to test the exercies from console input.
 
 ### Sugestie
 
@@ -64,6 +68,3 @@ Creaza o functie care va permite introducerea unui numar de la consola pentru te
 Write a Python function that takes a number as a parameter and check the number is prime or not. The functions should return `True` if the number is prime, and `False` otherwise.
 
 Create another function that will test the condition.
-
-### Ex 4
-
