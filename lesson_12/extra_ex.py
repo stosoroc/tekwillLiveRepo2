@@ -3,3 +3,9 @@
 # ●	biletul pentru copii (până la 18 ani) costă 40 lei
 # ●	biletul pentru persoanele a căror prenume începe cu litera "A" costă 90 lei, dacă au mai mult de 17 ani
 # 	Funcţia va returna preţul biletului calculat pentru fiecare persoană de o anumită vârstă.
+
+
+from lesson_12.input_exercies import custom_multiple_input
+
+
+custom_multiple_input()
