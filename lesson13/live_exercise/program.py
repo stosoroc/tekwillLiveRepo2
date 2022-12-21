@@ -1,0 +1,1 @@
+# Un program, care permite sa cream si modificam o lista de oaspeti la un eveniment. 
