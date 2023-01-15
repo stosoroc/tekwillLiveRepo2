@@ -15,6 +15,7 @@ class NotAFolderError(Exception):
 class PathNotFoundError(Exception):
     pass
 
+#path = input("Enter a path: ")
 #path = "D:\\Instal"
 #path = "D:\\Install\\favicon.ico"
 path = "D:\\Install"
