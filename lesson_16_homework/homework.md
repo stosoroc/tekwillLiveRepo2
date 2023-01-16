@@ -46,10 +46,19 @@ In my example it's C:\\files\\new_file.txt
 
 Create a python program that will create a file with the name input from console.
 
+### RO:
+
+Create o programa python care va crea un fisier conform unui nume (sau path) introdus de la consola.
+
 ## Exercise 2
 
 Create a python program that will open the file _ex_2_file.txt_ [find it here](files/ex_2_file.txt) and print out it's
 content.
+
+
+### RO:
+
+Create o programa python care deschide fiserul _ex_2_file.txt_ [gasit aici](files/ex_2_file.txt) si va afisa ce contine fisierul.
 
 ## Exercise 3
 
@@ -60,6 +69,17 @@ Then, create a file with the **file name** input from the console. Then ask the 
 The text input by the user should be then added to the file.
 
 Then print the text input by the user from the file.
+
+
+### RO:
+
+Creati un program python care va citi numele unui fisier de la consola.
+
+Programul va crea un fisierl cu numele fisierului citit de la consola, apoi va intreba utilizatorul sa scrie un text.
+
+Textul introdus de utilizator trebuie adaugat in fisier.
+
+Apoi cititi din fisier textul introdus de utilizator.
 
 ## Exercise 4
 
@@ -74,12 +94,31 @@ The program should save the list of dishes to a file. (Use JSON to store the inf
 
 If the user closes the program and opens it again. List all dishes should print out the previously saved list of dishes.
 
+
+### RO:
+
+Creati un program care va avea 2 optiuni:
+ 
+* Afiseaza toate bucatele
+  * Va afisa toate bucatele stocate intr-un fisier
+* Adauga bucata
+  * Va adauga o bucata in lista din fisier
+
+Daca utilizatorul re-porneste programul, la afisarea bucatelor, trebuie sa fie afisate toate elementele salvate anterior.
+
 ## Exercise 5
 
 Create a Python program that takes a text file name (or path) as input and prints out the line in the text file that has
 the highest number of words.
 
 Use this file [file](files/large_text_file.txt)
+
+
+### RO
+
+Creati un program care va citi un fisier textual conform unui path, din input. 
+
+Programul va afisa linia din text care are cea mai mare lungime.
 
 ## Exercise 6
 
@@ -97,3 +136,18 @@ Create a program that will:
   paid to lower.
 * Display information for the top 10 employees with the longest time in the company (name, position, salary,
   employment_start_date) from highest to lower.
+
+### RO
+
+Avand urmatorul fisier JSON: [file](files/employee_list.json).
+
+Creati un program care va afisa urmatoare informatie din fisier.
+
+* Lista de toti lucratorii
+* Lista la toate pozitiile din companie (Unicale)
+* Calculeaza suma totala care compania are de achitat lucratorii
+* Calculeaza suma totala de impozite care compania are de achitat intr-o luna
+  * Valoarea de % impozit e introdusa la consola
+* Afiseaza informatie despre 10 cei mai bine platiti lucratori ((name, position, salary, employment_start_date) de la mai mult la mai putin.
+* Afiseaza informatie despre 10 lucratori cu cel mai mult timp in companie (name, position, salary,
+  employment_start_date) de la mare la mic. 
