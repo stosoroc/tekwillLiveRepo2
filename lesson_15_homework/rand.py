@@ -21,11 +21,11 @@ def zar_start(parti,zaruri):
         inca = input("\nInca o data? (Enter pentru DA): ")
         if inca:
             break
-    
-parti = 6
-zaruri = 2
+if __name__ == '__main__':    
+    parti = 6   
+    zaruri = 2
 
-zar_start(parti,zaruri)
+    zar_start(parti,zaruri)
 
 # while True:
 #     # zar1 = random.randint(1, 6)
