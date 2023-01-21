@@ -2,9 +2,19 @@ import json
 from datetime import datetime
 
 
+def print_employee_data(name,
+                        position,
+                        employee_from,
+                        salary):
+    print(
+        f"{name} working as {position} since "
+        f"{employee_from} with salary {salary}"
+    )
+
+
 def list_all_employees(emp_list: list):
     for emp in emp_list:
-        print(emp['name'])
+        print_employee_data(**emp)
 
 
 def list_all_position(emp_list: list):
@@ -42,16 +52,22 @@ def show_to_10_highest_paid(emp_list: list):
 
 
 def show_to_10_oldest_employees(emp_list: list):
+    def print_10_emp_list():
+        for employee in emp_list[0:10]:
+            print(
+                f"{employee['name']} working as {employee['position']} since "
+                f"{employee['employee_from']} with salary {employee['salary']}"
+            )
+
+    print('Before sorting')
+    print_10_emp_list()
     print('\n Longest working employees')
     DATE_FORMAT = '%m/%d/%Y'
     for employee in emp_list:
         employee['employee_from'] = datetime.strptime(employee['employee_from'], DATE_FORMAT)
     emp_list.sort(key=lambda a: a['employee_from'])
-    for employee in emp_list[0:10]:
-        print(
-            f"{employee['name']} working as {employee['position']} since "
-            f"{employee['employee_from']} with salary {employee['salary']}"
-        )
+    print('After sorrting')
+    print_10_emp_list()
 
 
 def get_emp_list():
