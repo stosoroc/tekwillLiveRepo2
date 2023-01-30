@@ -69,15 +69,3 @@ class Square(Rectangle):
             self.__setattr__('_length', value, True)
             self.__setattr__('_width', value, True)
 
-
-circ = Circle(1, 'black', 'white')
-print(circ.get_radius())
-circ.set_radius(12)
-print(circ.get_radius())
-
-square = Square(10, 'black', 'white')
-print(square.get_width())
-square.set_length(4)
-square._length = 5  # Shouldnt do this
-print(square.get_width())
-print(square.get_length())
