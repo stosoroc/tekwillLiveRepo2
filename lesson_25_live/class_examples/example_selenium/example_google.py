@@ -1,6 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
 page = webdriver.Chrome('chromedriver.exe')
 

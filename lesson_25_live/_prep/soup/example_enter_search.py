@@ -31,3 +31,4 @@ for deal in products:
     results.append(data)
 dataFrame = pandas.DataFrame(results)
 print(dataFrame)
+dataFrame.to_excel('Results.xlsx')
