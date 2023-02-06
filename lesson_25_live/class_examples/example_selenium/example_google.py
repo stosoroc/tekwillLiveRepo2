@@ -1,7 +1,8 @@
-from selenium import webdriver
+from selenium import webdriver # selenium 3.14
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+# https://www.selenium.dev/documentation/webdriver/
 page = webdriver.Chrome('chromedriver.exe')
 
 page.get("http://google.com")
