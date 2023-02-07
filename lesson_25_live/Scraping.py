@@ -11,16 +11,13 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"
 }
 
-proxies = {
-  "http": "http://proxy.micb:8080",
-  "https": "http://proxy.micb:8080",
-}
+
 print()
 # Realizeaza cererea HTTP si returneaza continutul site-ului
 film = input("Nume Film care a fost in cinema, fara seriale si filme anuntate: ")
 url = "https://www.imdb.com/find/?q=" + film + "&ref_=nv_sr_sm"
 print("Caut film in baza IMDb...")
-page = requests.get(url, headers=headers, proxies=proxies)
+page = requests.get(url, headers=headers)
 
 # Parsing HTML cu BeautifulSoup
 soup = BeautifulSoup(page.content, "html.parser")
