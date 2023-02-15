@@ -46,7 +46,7 @@ sau docstring, pentru a explica utilitatea sau logica lor.
 Solutia voastra trebuie sa fie o repozitorie disponibila public pe GitHub.
 
 Proiectul **trebuie** sa contina tot codul necesar pentru a executa proiectul. **Ascundeti cheile pentru API-uri daca le
-aveti**.
+aveti** ([exemplu aici](https://github.com/mtricolici98/templateTelegramBot/blob/master/api_keys.py)).
 
 Proiectul **trebuie** sa contina un fisier `readme` care sa explice ce face proiectul, cum o face, si cum poate fi
 rulat.
@@ -67,3 +67,14 @@ Nu este interzis sa va *inspirati* din alte proiecte, cod depe internet sau solu
 * Structura codului, utilizarea functiilor si separarea responsabilitatilor programului
 * Utilizarea structurelor de date necesare pentru a usura lucrul cu programul (Obiecte, colectii, fisiere, etc.)
 * Usurinta rularii proiectului.
+
+## Template-uri pentru solutii
+
+Daca ai nevoie de o solutie WEB-api, gaseste un template gata [aici](https://github.com/mtricolici98/templateWebService)
+.
+
+Daca ai nevoie de o solutie Telegram-bot, gaseste template-ul
+gata [aici](https://github.com/mtricolici98/templateTelegramBot).
+
+E posibil sa folositi doar partea cu `models` si `db` din template-ul de WEB-api in caz ca doresti sa implementezi doar
+lucrul cu bazele de date.
